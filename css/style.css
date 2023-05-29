@@ -489,6 +489,14 @@ header .container .contacts button {
   border-left: none;
   border-right: none;
 }
+.request .container form .request_form ::placeholder {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #363636;
+}
 .request .container form .request_btn button {
   cursor: pointer;
   background: #E3B873;
@@ -631,6 +639,212 @@ header .container .contacts button {
     font-size: 13px;
     padding: 17px 14px;
   }
+}
+
+.measurement {
+  padding-top: 325px;
+  background-image: url("../images/meansurement.jpg");
+  background-size: cover;
+  margin-bottom: 300px;
+  margin-top: 110px;
+}
+@media screen and (max-width: 969px) {
+  .measurement {
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 431px) {
+  .measurement {
+    padding-top: 235px;
+  }
+}
+.measurement .container {
+  max-width: 1040px;
+}
+.measurement .container .measurement_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+@media screen and (max-width: 969px) {
+  .measurement .container .measurement_box {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.measurement .container .measurement_box .measurement_container {
+  padding-bottom: 56px;
+  margin-top: -70px;
+}
+.measurement .container .measurement_box .measurement_container ol {
+  margin-left: 30px;
+}
+@media screen and (max-width: 462px) {
+  .measurement .container .measurement_box .measurement_container ol {
+    margin-left: -50px;
+  }
+}
+@media screen and (max-width: 431px) {
+  .measurement .container .measurement_box .measurement_container ol {
+    margin-left: 0;
+  }
+}
+.measurement .container .measurement_box .measurement_container ol li {
+  list-style: none;
+  margin-bottom: 114px;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #363636;
+  margin-left: 30px;
+}
+@media screen and (max-width: 431px) {
+  .measurement .container .measurement_box .measurement_container ol li {
+    list-style: square;
+    margin-bottom: 20px;
+  }
+}
+.measurement .container .measurement_box .measurement_container ol li span {
+  margin-left: 83px;
+}
+@media screen and (max-width: 431px) {
+  .measurement .container .measurement_box .measurement_container ol li span {
+    margin-left: 0;
+  }
+}
+.measurement .container .measurement_box .measurement_container ol li::before {
+  content: "01";
+  margin-right: 17px;
+  background: #E3B873;
+  border: 8px solid #FFFFFF;
+  box-shadow: 0 5px 15px rgba(227, 184, 115, 0.15);
+  border-radius: 30px;
+  font-size: 25px;
+  color: #FFFFFF;
+  padding: 10px;
+}
+@media screen and (max-width: 431px) {
+  .measurement .container .measurement_box .measurement_container ol li::before {
+    display: none;
+  }
+}
+.measurement .container .measurement_box .measurement_container ol .li_2::before {
+  content: "02";
+}
+.measurement .container .measurement_box .measurement_container ol .li_3::before {
+  content: "03";
+}
+.measurement .container .measurement_box .measurement_container ol .li_4::before {
+  content: "04";
+}
+.measurement .container .measurement_box .measurement_wrapper {
+  padding: 28px 49px;
+  background: #131313;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.05);
+  max-width: 506px;
+}
+@media screen and (max-width: 506px) {
+  .measurement .container .measurement_box .measurement_wrapper {
+    padding: 20px 30px;
+  }
+}
+@media screen and (max-width: 475px) {
+  .measurement .container .measurement_box .measurement_wrapper {
+    padding: 17px 10px;
+  }
+}
+.measurement .container .measurement_box .measurement_wrapper h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 39px;
+}
+.measurement .container .measurement_box .measurement_wrapper form {
+  max-width: 408px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.measurement .container .measurement_box .measurement_wrapper form .form_items {
+  display: flex;
+  flex-direction: column;
+}
+.measurement .container .measurement_box .measurement_wrapper form .form_items:nth-child(3) input {
+  margin-bottom: 17px;
+}
+.measurement .container .measurement_box .measurement_wrapper form .form_items:last-of-type {
+  flex-direction: row;
+}
+.measurement .container .measurement_box .measurement_wrapper form .form_items:last-of-type input {
+  max-width: 18px;
+  margin-right: 8px;
+  margin-bottom: 39px;
+}
+.measurement .container .measurement_box .measurement_wrapper form .form_items:last-of-type p {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 163.68%;
+  color: #FFFFFF;
+  margin-top: -5px;
+}
+.measurement .container .measurement_box .measurement_wrapper form .form_items label {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 7px;
+}
+.measurement .container .measurement_box .measurement_wrapper form .form_items input {
+  padding: 8px 0;
+  width: 408px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #131313;
+  border-color: rgba(255, 255, 255, 0.15);
+  margin-bottom: 48px;
+  color: white;
+}
+@media screen and (max-width: 440px) {
+  .measurement .container .measurement_box .measurement_wrapper form .form_items input {
+    width: 300px;
+  }
+}
+.measurement .container .measurement_box .measurement_wrapper form .form_items ::placeholder {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+.measurement .container .measurement_box .measurement_wrapper form button {
+  background: #E3B873;
+  box-shadow: 0 5px 15px rgba(227, 184, 115, 0.15);
+  padding: 19px 21px;
+  max-width: 213px;
+  align-self: flex-end;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
