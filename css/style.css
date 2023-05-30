@@ -1082,4 +1082,115 @@ footer .container .contacts button {
   }
 }
 
+.clients {
+  padding-top: 110px;
+  padding-bottom: 50px;
+}
+.clients .container h3 {
+  font-family: "Yeseva One", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #181818;
+  margin-bottom: 13px;
+}
+.clients .container .clients_photo {
+  max-width: 114px;
+  margin: auto;
+}
+.clients .container .clients_photo img {
+  width: 100%;
+  display: block;
+}
+.clients .container p {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #363636;
+  margin-top: 28px;
+  margin-bottom: 63px;
+}
+.clients .container .clients_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 1128px) {
+  .clients .container .clients_wrapper {
+    justify-content: space-around;
+  }
+}
+.clients .container .clients_wrapper .clients_box {
+  background: #FFFFFF;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.04);
+  padding: 13px 31px 0 20px;
+  max-width: 376px;
+}
+@media screen and (max-width: 400px) {
+  .clients .container .clients_wrapper .clients_box {
+    margin: 0 10px;
+  }
+}
+@media screen and (max-width: 752px) {
+  .clients .container .clients_wrapper .clients_box:nth-child(2) {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 1128px) {
+  .clients .container .clients_wrapper .clients_box:last-of-type {
+    margin-top: 20px;
+  }
+}
+.clients .container .clients_wrapper .clients_box .clients_box_item {
+  display: flex;
+  align-items: center;
+}
+.clients .container .clients_wrapper .clients_box .clients_box_item h4 {
+  max-width: 178px;
+  font-family: "Yeseva One", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #181818;
+  margin-left: 23px;
+}
+.clients .container .clients_wrapper .clients_box .clients_text {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 180%;
+  color: #959595;
+}
+.clients .container .clients_wrapper .clients_box .clients_box_square {
+  background: #E3B873;
+  box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+  padding: 11px 15px;
+  display: flex;
+  align-items: center;
+}
+.clients .container .clients_wrapper .clients_box .clients_box_square img {
+  margin-right: 15px;
+}
+.clients .container .clients_wrapper .clients_box .clients_box_square span {
+  font-family: "Yeseva One", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 31px;
+}
+.clients .container .clients_wrapper .clients_box .clients_box_square span:last-of-type {
+  margin-right: 0;
+}
+
 /*# sourceMappingURL=style.css.map */

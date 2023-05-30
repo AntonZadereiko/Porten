@@ -1010,3 +1010,112 @@ footer {
     }
   }
 }
+.clients{
+  padding-top: 110px;
+  padding-bottom: 50px;
+  .container{
+    h3{
+      font-family: $second_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #181818;
+      margin-bottom: 13px;
+    }
+    .clients_photo{
+      max-width: 114px;
+      margin: auto;
+      img{
+        width: 100%;
+        display: block;
+      }
+    }
+    p{
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 29px;
+      text-align: center;
+      color: #363636;
+      margin-top: 28px;
+      margin-bottom: 63px;
+    }
+    .clients_wrapper{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      @include max-screen(1128px){
+        justify-content: space-around;
+      }
+      .clients_box{
+        background: #FFFFFF;
+        box-shadow: 0 10px 50px rgba(0, 0, 0, 0.04);
+        padding: 13px 31px 0 20px;
+        max-width: 376px;
+        @include max-screen(400px){
+          margin: 0 10px;
+        }
+        &:nth-child(2){
+          @include max-screen(752px){
+            margin-top: 20px;
+          }
+        }
+        &:last-of-type{
+          @include max-screen(1128px){
+            margin-top: 20px;
+          }
+        }
+        .clients_box_item{
+          display: flex;
+          align-items: center;
+          h4{
+            max-width: 178px;
+            font-family: $second_font;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+
+            color: #181818;
+            margin-left: 23px;
+          }
+        }
+        .clients_text{
+          font-family: $main_font;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 180%;
+          color: #959595;
+        }
+        .clients_box_square{
+          background: #E3B873;
+          box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+          padding: 11px 15px;
+          display: flex;
+          align-items: center;
+          img{
+            margin-right: 15px;
+          }
+          span{
+            font-family: $second_font;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-right: 31px;
+            &:last-of-type{
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
