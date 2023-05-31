@@ -1193,4 +1193,46 @@ footer .container .contacts button {
   margin-right: 0;
 }
 
+.location {
+  padding: 100px 0;
+  background-color: #131313;
+}
+.location .container h3 {
+  font-family: "Yeseva One", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #E3B873;
+  margin-bottom: 26px;
+}
+.location .container .location_links {
+  max-width: 75px;
+  margin: auto;
+}
+.location .container .location_links a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+.location .container .location_links a img {
+  margin-bottom: 20px;
+}
+.location .container .location_links a:last-of-type {
+  margin-right: 0;
+}
+.location .container .location_map {
+  max-width: 600px;
+  margin: auto;
+}
+@media screen and (max-width: 615px) {
+  .location .container .location_map {
+    margin: 0 15px;
+  }
+}
+.location .container .location_map iframe {
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1119,3 +1119,44 @@ footer {
     }
   }
 }
+.location{
+  padding: 100px 0;
+  background-color: #131313;
+  .container{
+    h3{
+      font-family: $second_font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #E3B873;
+      margin-bottom: 26px;
+    }
+    .location_links{
+      max-width: 75px;
+      margin: auto;
+      a{
+        text-decoration: none;
+        margin-right: 15px;
+        img{
+          margin-bottom: 20px;
+        }
+        &:last-of-type{
+          margin-right: 0;
+        }
+      }
+    }
+    .location_map{
+      max-width: 600px;
+      margin: auto;
+      @include max-screen(615px){
+        margin: 0 15px;
+      }
+      iframe{
+        width: 100%;
+      }
+    }
+  }
+}
